@@ -4260,8 +4260,8 @@ importers:
   packages/treeshake-server:
     dependencies:
       '@hono/node-server':
-        specifier: 1.19.5
-        version: 1.19.5(hono@4.11.10)
+        specifier: 1.19.10
+        version: 1.19.10(hono@4.11.10)
       '@hono/zod-validator':
         specifier: 0.7.4
         version: 0.7.4(hono@4.11.10)(zod@4.1.12)
@@ -5782,12 +5782,15 @@ packages:
 
   '@dinero.js/calculator-number@2.0.0-alpha.10':
     resolution: {integrity: sha512-EdKG0yykukigfdq+TsxZ9r0Wrg5flYAncKWSfr2snWDXurFsg8JE0oazVraCBA3Vb5LN4vGuFEpTFTH+dIrRCg==}
+    deprecated: This package has been consolidated into dinero.js. See https://v2.dinerojs.com/getting-started/upgrade-guide
 
   '@dinero.js/core@2.0.0-alpha.10':
     resolution: {integrity: sha512-vjeGXQbNvDXlXK54zaWDydEXyFAvLDj6LCfwO4CTZJIqn3+PaXakaEd5S0AXC6hluPatxnQa5J63x3WQ/Imrjw==}
+    deprecated: This package has been consolidated into dinero.js. See https://v2.dinerojs.com/getting-started/upgrade-guide
 
   '@dinero.js/currencies@2.0.0-alpha.10':
     resolution: {integrity: sha512-IDKaAh0YcJh700uLCrvWtIRCl5sItc3S2rk4IfVJBbms3j+NBDOlVFJnwru+UrMh7VpqU9GlZRsHcHf0NxYE9A==}
+    deprecated: This package has been consolidated into dinero.js. See https://v2.dinerojs.com/getting-started/upgrade-guide
 
   '@discoveryjs/json-ext@0.5.7':
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
@@ -6832,14 +6835,8 @@ packages:
     peerDependencies:
       react: '>= 16'
 
-  '@hono/node-server@1.19.5':
-    resolution: {integrity: sha512-iBuhh+uaaggeAuf+TftcjZyWh2GEgZcVGXkNtskLVoWaXhnJtC5HLHrU8W1KHDoucqO1MswwglmkWLFyiDn4WQ==}
-    engines: {node: '>=18.14.1'}
-    peerDependencies:
-      hono: ^4
-
-  '@hono/node-server@1.19.9':
-    resolution: {integrity: sha512-vHL6w3ecZsky+8P5MD+eFfaGTyCeOHUIFYMGpQGbrBTSmNNoxv0if69rEZ5giu36weC5saFuznL411gRX7bJDw==}
+  '@hono/node-server@1.19.10':
+    resolution: {integrity: sha512-hZ7nOssGqRgyV3FVVQdfi+U4q02uB23bpnYpdvNXkYTRRyWx84b7yf1ans+dnJ/7h41sGL3CeQTfO+ZGxuO+Iw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -12150,8 +12147,8 @@ packages:
     peerDependencies:
       semantic-release: '>=20.1.0'
 
-  '@semantic-release/npm@13.1.4':
-    resolution: {integrity: sha512-z5Fn9ftK1QQgFxMSuOd3DtYbTl4hWI2trCEvZcEJMQJy1/OBR0WHcxqzfVun455FSkHML8KgvPxJEa9MtZIBsg==}
+  '@semantic-release/npm@13.1.5':
+    resolution: {integrity: sha512-Hq5UxzoatN3LHiq2rTsWS54nCdqJHlsssGERCo8WlvdfFA9LoN0vO+OuKVSjtNapIc/S8C2LBj206wKLHg62mg==}
     engines: {node: ^22.14.0 || >= 24.10.0}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -12194,6 +12191,10 @@ packages:
 
   '@sideway/pinpoint@2.0.0':
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
+
+  '@simple-libs/stream-utils@1.2.0':
+    resolution: {integrity: sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA==}
+    engines: {node: '>=18'}
 
   '@sinclair/typebox@0.25.24':
     resolution: {integrity: sha512-XJfwUVUKDHF5ugKwIcxEgc9k8b7HbznCp6eUfWgu710hMPNIO4aw4/zB5RogDQz8nd6gyCDpU9O/m6qYEWY6yQ==}
@@ -15931,16 +15932,16 @@ packages:
     resolution: {integrity: sha512-ROjNchA9LgfNMTTFSIWPzebCwOGFdgkEq45EnvvrmSLvCtAw0HSmrCs7/ty+wAeYUZyNay0YMUNYFTRL72PkBQ==}
     engines: {node: '>=16'}
 
-  conventional-changelog-angular@8.1.0:
-    resolution: {integrity: sha512-GGf2Nipn1RUCAktxuVauVr1e3r8QrLP/B0lEUsFktmGqc3ddbQkhoJZHJctVU829U1c6mTSWftrVOCHaL85Q3w==}
+  conventional-changelog-angular@8.2.0:
+    resolution: {integrity: sha512-4YB1zEXqB17oBI8yRsAs1T+ZhbdsOgJqkl6Trz+GXt/eKf1e4jnA0oW+sOd9BEENzEViuNW0DNoFFjSf3CeC5Q==}
     engines: {node: '>=18'}
 
   conventional-changelog-conventionalcommits@7.0.2:
     resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
     engines: {node: '>=16'}
 
-  conventional-changelog-writer@8.2.0:
-    resolution: {integrity: sha512-Y2aW4596l9AEvFJRwFGJGiQjt2sBYTjPD18DdvxX9Vpz0Z7HQ+g1Z+6iYDAm1vR3QOJrDBkRHixHK/+FhkR6Pw==}
+  conventional-changelog-writer@8.3.0:
+    resolution: {integrity: sha512-l5hDOHjcTUVtnZJapoqXMCJ3IbyF6oV/vnxKL13AHulFH7mDp4PMJARxI7LWzob6UDDvhxIUWGTNUPW84JabQg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -15956,8 +15957,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  conventional-commits-parser@6.2.1:
-    resolution: {integrity: sha512-20pyHgnO40rvfI0NGF/xiEoFMkXDtkF8FwHvk5BokoFoCuTQRI8vrNCNFWUOfuolKJMm1tPCHc8GgYEtr1XRNA==}
+  conventional-commits-parser@6.3.0:
+    resolution: {integrity: sha512-RfOq/Cqy9xV9bOA8N+ZH6DlrDR+5S3Mi0B5kACEjESpE+AviIpAptx9a9cFpWCCvgRtWT+0BbUw+e1BZfts9jg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -16105,6 +16106,15 @@ packages:
 
   cosmiconfig@9.0.0:
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=4.9.5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  cosmiconfig@9.0.1:
+    resolution: {integrity: sha512-hr4ihw+DBqcvrsEDioRO31Z17x71pUYoNe/4h6Z0wB72p7MU7/9gH8Q3s12NFhHPfYBBOV3qyfUxmr/Yn3shnQ==}
     engines: {node: '>=14'}
     peerDependencies:
       typescript: '>=4.9.5'
@@ -18399,6 +18409,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   github-slugger@1.5.0:
@@ -21344,6 +21355,10 @@ packages:
   normalize-url@8.1.1:
     resolution: {integrity: sha512-JYc0DPlpGWB40kH5g07gGTrYuMqV653k3uBKY6uITPWds3M0ov3GaWGp9lbE3Bzngx8+XkfzgvASb9vk9JDFXQ==}
     engines: {node: '>=14.16'}
+
+  normalize-url@9.0.0:
+    resolution: {integrity: sha512-z9nC87iaZXXySbWWtTHfCFJyFvKaUAW6lODhikG7ILSbVgmwuFjUqkgnheHvAUcGedO29e2QGBRXMUD64aurqQ==}
+    engines: {node: '>=20'}
 
   npm-bundled@1.1.2:
     resolution: {integrity: sha512-x5DHup0SuyQcmL3s7Rx/YQ8sbw/Hzg0rj48eN0dV7hf5cmQq5PXIeioroH3raV1QC1yh3uTYuMThvEQF3iKgGQ==}
@@ -31116,11 +31131,7 @@ snapshots:
     dependencies:
       react: 19.0.0-rc-cd22717c-20241013
 
-  '@hono/node-server@1.19.5(hono@4.11.10)':
-    dependencies:
-      hono: 4.11.10
-
-  '@hono/node-server@1.19.9(hono@4.11.10)':
+  '@hono/node-server@1.19.10(hono@4.11.10)':
     dependencies:
       hono: 4.11.10
 
@@ -32044,7 +32055,7 @@ snapshots:
 
   '@modelcontextprotocol/sdk@1.25.3(hono@4.11.10)(zod@3.25.76)':
     dependencies:
-      '@hono/node-server': 1.19.9(hono@4.11.10)
+      '@hono/node-server': 1.19.10(hono@4.11.10)
       ajv: 8.18.0
       ajv-formats: 3.0.1(ajv@8.18.0)
       content-type: 1.0.5
@@ -40457,10 +40468,10 @@ snapshots:
 
   '@semantic-release/commit-analyzer@13.0.1(semantic-release@25.0.2(typescript@5.8.2))':
     dependencies:
-      conventional-changelog-angular: 8.1.0
-      conventional-changelog-writer: 8.2.0
+      conventional-changelog-angular: 8.2.0
+      conventional-changelog-writer: 8.3.0
       conventional-commits-filter: 5.0.0
-      conventional-commits-parser: 6.2.1
+      conventional-commits-parser: 6.3.0
       debug: 4.4.3(supports-color@8.1.1)
       import-from-esm: 2.0.0
       lodash-es: 4.17.23
@@ -40561,7 +40572,7 @@ snapshots:
       semver: 7.6.3
       tempy: 3.1.2
 
-  '@semantic-release/npm@13.1.4(semantic-release@25.0.2(typescript@5.8.2))':
+  '@semantic-release/npm@13.1.5(semantic-release@25.0.2(typescript@5.8.2))':
     dependencies:
       '@actions/core': 3.0.0
       '@semantic-release/error': 4.0.0
@@ -40571,7 +40582,7 @@ snapshots:
       fs-extra: 11.3.0
       lodash-es: 4.17.23
       nerf-dart: 1.0.0
-      normalize-url: 8.1.1
+      normalize-url: 9.0.0
       npm: 11.11.0
       rc: 1.2.8
       read-pkg: 10.1.0
@@ -40582,10 +40593,10 @@ snapshots:
 
   '@semantic-release/release-notes-generator@14.1.0(semantic-release@25.0.2(typescript@5.8.2))':
     dependencies:
-      conventional-changelog-angular: 8.1.0
-      conventional-changelog-writer: 8.2.0
+      conventional-changelog-angular: 8.2.0
+      conventional-changelog-writer: 8.3.0
       conventional-commits-filter: 5.0.0
-      conventional-commits-parser: 6.2.1
+      conventional-commits-parser: 6.3.0
       debug: 4.4.3(supports-color@8.1.1)
       get-stream: 7.0.1
       import-from-esm: 2.0.0
@@ -40645,6 +40656,8 @@ snapshots:
   '@sideway/formula@3.0.1': {}
 
   '@sideway/pinpoint@2.0.0': {}
+
+  '@simple-libs/stream-utils@1.2.0': {}
 
   '@sinclair/typebox@0.25.24': {}
 
@@ -46398,7 +46411,7 @@ snapshots:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-angular@8.1.0:
+  conventional-changelog-angular@8.2.0:
     dependencies:
       compare-func: 2.0.0
 
@@ -46406,8 +46419,9 @@ snapshots:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-writer@8.2.0:
+  conventional-changelog-writer@8.3.0:
     dependencies:
+      '@simple-libs/stream-utils': 1.2.0
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.7
       meow: 13.2.0
@@ -46424,8 +46438,9 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  conventional-commits-parser@6.2.1:
+  conventional-commits-parser@6.3.0:
     dependencies:
+      '@simple-libs/stream-utils': 1.2.0
       meow: 13.2.0
 
   convert-hrtime@3.0.0: {}
@@ -46622,6 +46637,15 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
     optional: true
+
+  cosmiconfig@9.0.1(typescript@5.8.2):
+    dependencies:
+      env-paths: 2.2.1
+      import-fresh: 3.3.1
+      js-yaml: 4.1.0
+      parse-json: 5.2.0
+    optionalDependencies:
+      typescript: 5.8.2
 
   create-ecdh@4.0.4:
     dependencies:
@@ -54048,6 +54072,8 @@ snapshots:
 
   normalize-url@8.1.1: {}
 
+  normalize-url@9.0.0: {}
+
   npm-bundled@1.1.2:
     dependencies:
       npm-normalize-package-bin: 1.0.1
@@ -59144,10 +59170,10 @@ snapshots:
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.2(typescript@5.8.2))
       '@semantic-release/error': 4.0.0
       '@semantic-release/github': 12.0.6(semantic-release@25.0.2(typescript@5.8.2))
-      '@semantic-release/npm': 13.1.4(semantic-release@25.0.2(typescript@5.8.2))
+      '@semantic-release/npm': 13.1.5(semantic-release@25.0.2(typescript@5.8.2))
       '@semantic-release/release-notes-generator': 14.1.0(semantic-release@25.0.2(typescript@5.8.2))
       aggregate-error: 5.0.0
-      cosmiconfig: 9.0.0(typescript@5.8.2)
+      cosmiconfig: 9.0.1(typescript@5.8.2)
       debug: 4.4.3(supports-color@8.1.1)
       env-ci: 11.2.0
       execa: 9.6.1
